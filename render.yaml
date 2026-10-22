@@ -8,9 +8,9 @@ services:
     healthCheckPath: /v3/api-docs
     envVars:
       - key: DB_HOST
-        sync: false
+        value: gateway01.us-east-1.prod.aws.tidbcloud.com
       - key: DB_PORT
-        sync: false
+        value: "4000"
       - key: DB_NAME
         value: crud_usuarios
       - key: DB_USERNAME
@@ -22,7 +22,7 @@ services:
       - key: BREVO_API_KEY
         sync: false
       - key: BREVO_FROM_ADDRESS
-        sync: false
+        value: valentina.diazmartinez@unicolombo.edu.co
       - key: BREVO_FROM_NAME
         value: Gestion de Usuarios
       - key: JWT_SECRET

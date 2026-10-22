@@ -63,3 +63,13 @@ Variables requeridas: `BREVO_API_KEY` y `BREVO_FROM_ADDRESS`. El remitente debe 
 verificado en Brevo. Los parametros de resiliencia `BREVO_CONNECT_TIMEOUT`,
 `BREVO_READ_TIMEOUT`, `BREVO_RETRY_*` y `BREVO_CIRCUIT_*` son opcionales y tienen
 valores predeterminados en `application.properties`.
+
+## Sustentación del Proyecto
+
+- **Estudiante:** Valentina Díaz Martínez
+- **Institución:** Fundación Universitaria Colombo Internacional (Unicolombo)
+- **Arquitectura:** Arquitectura Hexagonal y Domain-Driven Design (DDD) con Spring Boot 3
+- **Persistencia:** TiDB Cloud Serverless (MySQL Compatible) en AWS us-east-1
+- **Mailing transaccional:** Brevo API RESTful con Resilience4j (Retry & Circuit Breaker)
+- **Despliegue Cloud:** Render Cloud PaaS (Docker Container)
+- **Cliente Móvil:** Aplicación Android Nativa en Java con Retrofit 2 y Material Design
